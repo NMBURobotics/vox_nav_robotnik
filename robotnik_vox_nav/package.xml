@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>robotnik_vox_nav</name>
+  <version>2.1.1</version>
+  <description>Launch files for bringing up vox nav nodes</description>
+  <maintainer email="fetullah.atas@nmbu.no">Fetullah Atas</maintainer>
+  <license>Proprietary</license>
+  <author email="fetullah.atas@nmbu.no">Fetullah Atas</author>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>vox_nav_bringup</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
